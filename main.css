@@ -30,11 +30,12 @@ body {
 
 #centered-div {
     background-color: white;
-    width: 60ch;
-    padding: 16px;
+    width: 65ch;
     display: flex;
     margin: auto;
     border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 #card2 {
@@ -49,12 +50,19 @@ body {
     border-radius: 5px;
     color: white;
     background-color: black;
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 
 img {
     border-radius: 5px 5px;
     max-width: 100%;
     margin-bottom: -4px;
+}
+
+#logo {
+    color: white; 
+    background-color: black; 
+    padding: 30px;
 }
 
 #repo-link {
@@ -80,20 +88,32 @@ img {
     }
 
     #centered-div {
+      background: none;
       margin-left: 16px;
       width: fit-content;
       margin-right: 16px;
       flex-direction: column;
     }
 
+    #logo {
+        color: black; 
+        background-color: white; 
+        padding: 0px;
+    }
+
     #repo-link {
         display: none;
+    }
+
+    #card1 {
+        filter: none;
     }
 
     #card2 {
         padding: 16px;
         margin-left: 0;
         background-color: white;
+        border-radius: 0px 0px 5px 5px;
     }
 }
 
