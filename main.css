@@ -38,6 +38,12 @@ body {
     margin-bottom: 16px;
 }
 
+#logo {
+        color: black; 
+        background-color: white; 
+        padding: 0px;
+}
+
 #card2 {
     flex: 1;
     padding-left: 32px;
@@ -95,12 +101,6 @@ img {
       flex-direction: column;
     }
 
-    #logo {
-        color: black; 
-        background-color: white; 
-        padding: 0px;
-    }
-
     #repo-link {
         display: none;
     }
@@ -109,11 +109,19 @@ img {
         filter: none;
     }
 
+    #logo {
+        display: none;
+    }
+
     #card2 {
         padding: 16px;
         margin-left: 0;
         background-color: white;
         border-radius: 0px 0px 5px 5px;
+    }
+
+    #card2 h2 {
+        display: none;
     }
 }
 
