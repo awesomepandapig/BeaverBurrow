@@ -126,6 +126,36 @@ img {
     border-color: white;
 }
 
+/* Use Google's hosted "Open Sans" font as display font in button */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
+
+/* Button */
+#eventbrite-widget-modal-trigger-216690415867 							{
+    display:inline-block;position:relative;font-family:"Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+    color:#000!important;
+    font-weight:600;
+    line-height:100%;
+    background:#fff;
+    font-size:15px;
+    text-decoration:none;
+    border:1px solid transparent;
+    padding:13px 12px 12px;
+    -webkit-border-radius:3px;
+    border-radius:3px;cursor:pointer;
+    -webkit-font-smoothing:antialiased!important;
+    outline-color:rgba(0,78,255,0.5);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    box-shadow:0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
+}
+#eventbrite-widget-modal-trigger-216690415867:hover 						{background-color:#fafafa;color:#000;font-size:15px;text-decoration:none;}
+#eventbrite-widget-modal-trigger-216690415867:active 					{border-width:2px 1px 0px 1px;}
+#eventbrite-widget-modal-trigger-216690415867-selected 					{background-color:#f9f9f9;}
+#eventbrite-widget-modal-trigger-216690415867 .addeventatc_icon 			{width:18px;height:18px;position:absolute;z-index:1;left:12px;top:10px;background:url(../gfx/icon-calendar-t1.svg) no-repeat;background-size:18px 18px;}
+#addevenventbrite-widget-modal-trigger-216690415867tatc .start, .addeventatc .end, .addeventatc .timezone, .addeventatc .title, .addeventatc .description, .addeventatc .location, .addeventatc .organizer, .addeventatc .organizer_email, .addeventatc .facebook_event, .addeventatc .all_day_event, .addeventatc .date_format, .addeventatc .alarm_reminder, .addeventatc .recurring, .addeventatc .attendees, .addeventatc .calname, .addeventatc .uid, .addeventatc .status, .addeventatc .method, .addeventatc .client, .addeventatc .transp {display:none!important;}
+#eventbrite-widget-modal-trigger-216690415867 br 						{display:none;}
+
 @media only screen and (max-width: 700px) {
     h2 {
         font-size: 24px;
@@ -140,7 +170,7 @@ img {
       margin-left: 16px;
       width: fit-content;
       margin-right: 16px;
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
 
     #repo-link {
@@ -148,7 +178,7 @@ img {
     }
 
     #card1 {
-        filter: none;
+        z-index: 0;
     }
 
     #logo {
@@ -156,6 +186,8 @@ img {
     }
 
     #card2 {
+        z-index: 1;
+        margin-top: -3px;
         padding: 16px;
         margin-left: 0;
         background-color: white;
@@ -165,16 +197,9 @@ img {
     #card2 h2 {
         display: none;
     }
+
+    #eventbrite-widget-modal-trigger-216690415867  {
+        width: calc(100% - 24px);
+    }
+
 }
-
-/* Use Google's hosted "Open Sans" font as display font in button */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
-
-/* Button */
-#eventbrite-widget-modal-trigger-216690415867 							{display:inline-block;position:relative;font-family:"Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;color:#000!important;font-weight:600;line-height:100%;background:#fff;font-size:15px;text-decoration:none;border:1px solid transparent;padding:13px 12px 12px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer;-webkit-font-smoothing:antialiased!important;outline-color:rgba(0,78,255,0.5);text-shadow:1px 1px 1px rgba(0,0,0,0.004);-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);box-shadow:0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;}
-#eventbrite-widget-modal-trigger-216690415867:hover 						{background-color:#fafafa;color:#000;font-size:15px;text-decoration:none;}
-#eventbrite-widget-modal-trigger-216690415867:active 					{border-width:2px 1px 0px 1px;}
-#eventbrite-widget-modal-trigger-216690415867-selected 					{background-color:#f9f9f9;}
-#eventbrite-widget-modal-trigger-216690415867 .addeventatc_icon 			{width:18px;height:18px;position:absolute;z-index:1;left:12px;top:10px;background:url(../gfx/icon-calendar-t1.svg) no-repeat;background-size:18px 18px;}
-#addevenventbrite-widget-modal-trigger-216690415867tatc .start, .addeventatc .end, .addeventatc .timezone, .addeventatc .title, .addeventatc .description, .addeventatc .location, .addeventatc .organizer, .addeventatc .organizer_email, .addeventatc .facebook_event, .addeventatc .all_day_event, .addeventatc .date_format, .addeventatc .alarm_reminder, .addeventatc .recurring, .addeventatc .attendees, .addeventatc .calname, .addeventatc .uid, .addeventatc .status, .addeventatc .method, .addeventatc .client, .addeventatc .transp {display:none!important;}
-#eventbrite-widget-modal-trigger-216690415867 br 						{display:none;}
