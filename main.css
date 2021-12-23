@@ -132,7 +132,9 @@ img {
 
 /* Button */
 #eventbrite-widget-modal-trigger-216690415867 							{
-    display:inline-block;position:relative;font-family:"Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+    display:inline-block;
+    position:relative;
+    font-family:"Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
     color:#000!important;
     font-weight:600;
     line-height:100%;
