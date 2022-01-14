@@ -4,7 +4,7 @@ function getRandomColor() {
     for (var i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
     }
-    document.getElementById("contact-link").style.borderColor = color;
+    document.getElementById("contact-link").style.borderColor = "red";
 }
 
 function resetColor() {

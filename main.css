@@ -61,6 +61,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 
 .middle {
@@ -91,6 +92,10 @@ body {
     padding-left: 32px;
     padding-right: 32px;
     position: relative;
+}
+
+#card2 img {
+    margin-top: 32px;
 }
 
 #card1 {
@@ -197,7 +202,7 @@ img {
         border-radius: 0px 0px 5px 5px;
     }
 
-    #card2 h2 {
+    #card2 img {
         display: none;
     }
     
