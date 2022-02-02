@@ -14,9 +14,10 @@
     <title>Beaver Burrow</title>
     <script src="index.js"></script>
     <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,18 +39,23 @@
             <div id="centered-div">
                 <div id="card2">
                     <div id="background"></div>
-                    <img src="./android-chrome-512x512.png" style="background: black;">
-                    <p>Beaver Burrow is dedicated to putting on professional EDM events for Oregon State University students. <br><br>Stay tuned for information regarding future events!</p>
+                    <img src="android-chrome-512x512.webp" style="background: black;">
+                    <!--TODO: Change the body text to event description----->
+                    <b><p>Beaver Burrow is dedicated to putting on professional EDM events for Oregon State University students. <br><br>Stay tuned for information regarding future events!</p></b>
+                    <!--TODO: Uncomment this button and change the link-->
                     <!--<a id="eventbrite-widget-modal-trigger-216690415867" type="button" href="https://www.eventbrite.com/e/216690415867"
                         rel="noreferrer" target="_blank">Buy Tickets</a>-->
                 </div>
                 <div id="card1">
-                    <img src="coming-soon.png" alt="">
+                    <!--TODO: Change the poster-------->
+                    <img src="coming-soon.webp" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <a id="faq-link" href="beaverburrow.com/FAQ" target="_blank"
+        onmouseover="getFaqColor()" onmouseout="resetColor()">FAQ</a>
     <a id="contact-link" href="mailto:bvb@oregonstate.edu" target="_blank"
-        onmouseover="getRandomColor()" onmouseout="resetColor()">Contact Us</a>
+        onmouseover="getContactColor()" onmouseout="resetColor()">Contact Us</a>
 </body>
 </html>

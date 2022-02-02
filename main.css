@@ -81,10 +81,10 @@ body {
 }
 
 #logo {
-        color: black; 
-        background-color: white; 
-        padding: 0px;
-        margin-top: 32px;
+    color: black; 
+    background-color: white; 
+    padding: 0px;
+    margin-top: 32px;
 }
 
 #card2 {
@@ -105,6 +105,7 @@ body {
     color: white;
     background-color: black;
     filter: drop-shadow(4px 4px 8px #000000);
+    font-weight: 700;
 }
 
 img {
@@ -130,6 +131,38 @@ img {
     border-bottom: solid;
     border-width: 3px;
     border-color: white;
+    font-weight: 700;
+}
+
+#faq-link {
+    position: fixed;
+    bottom: 0;
+    left: 16px;
+    margin-bottom: 16px;
+    text-align: right;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: white;
+    font-weight: 700;
+}
+
+.accordion {
+    background-color: Gainsboro;
+    padding: 16px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+}
+
+.panel {
+    padding: 0 18px;
+    font-weight: 300;
+    height: auto;
 }
 
 /* Use Google's hosted "Open Sans" font as display font in button */
