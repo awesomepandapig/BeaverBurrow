@@ -214,6 +214,10 @@ img {
       flex-direction: column-reverse;
     }
 
+    #faq-link {
+        display: none;
+    }
+
     #contact-link {
         display: none;
     }
